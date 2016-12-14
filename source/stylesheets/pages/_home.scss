@@ -1,0 +1,118 @@
+.wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #C04CFD;
+  background-size: cover;
+}
+
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  background-repeat: no-repeat;
+    background-size: cover;
+     transition: 0.4s ease;
+  &:hover {
+    z-index: 999;
+    filter: none;
+    -webkit-filter:grayscale(0%);
+  }
+}
+
+#box1 {
+ top: 10px;
+ left: 200px;
+ height: 300px;
+ width: 261px;
+
+}
+
+
+#box2 {
+ top: 20px;
+ left: 500px;
+}
+
+
+#box3 {
+ top: 300px;
+ left: 40px;
+ height: 250px;
+ border-radius: 10px;
+}
+
+
+
+#box4 {
+ top: 350px;
+ left: 50px;
+}
+
+
+
+#box5 {
+ top: 50px;
+ left: 600px;
+}
+
+
+
+#box6 {
+ top: 60px;
+ left: 70px;
+}
+
+
+
+#box7 {
+ top: 300px;
+ left: 800px;
+ width: 475px;
+
+}
+
+
+
+#box8 {
+ top: 300px;
+ left: 650px;
+ font-size: 50px;
+}
+
+
+
+#box9 {
+ top: 90px;
+ left: 1000px;
+ height: 300px;
+ width: 300px;
+ border-radius: 175px;
+}
+
+
+#box10 {
+ top: 100px;
+ left: 300px;
+ width: 450px;
+}
+
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.contrast {
+  -webkit-filter: contrast(160%);
+  filter: contrast(160%);
+}
+
+.huerotate {
+  -webkit-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+}
+
+.devicon-git-plain {
+  font-size: 50px;
+}
